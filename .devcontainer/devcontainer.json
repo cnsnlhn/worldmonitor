@@ -1,8 +1,6 @@
 {
   "name": "World Monitor Codespace",
-  "build": {
-    "dockerfile": "Dockerfile"
-  },
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:20-bullseye",
   "features": {
     "ghcr.io/devcontainers/features/docker-in-docker:2": {}
   },
