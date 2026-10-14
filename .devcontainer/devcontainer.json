@@ -1,0 +1,10 @@
+{
+  "name": "World Monitor Codespace",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+  },
+  "forwardPorts": [3000, 8080, 5173]
+}
